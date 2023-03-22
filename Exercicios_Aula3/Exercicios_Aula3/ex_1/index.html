@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício 1</title>
+</head>
+<body>
+  <fieldset style="width: 500px">
+    <legend>Dados do paciente</legend>
+    <label>Nome do paciente:</label>
+    <input type="text"><br/>
+    <label>Registro Hospitalar:</label>
+    <input type="text"><br/>
+    <label>Data de inclusão:</label>
+    <input type="date"><br/>
+    <label>Data de nascimento:</label>
+    <input type="date"><br/>
+    <label>Email:</label>
+    <input type="text"><br/>
+    <label>Gênero:</label><br/>
+    <input type="radio" id="rd_f"><label for="rd_f">Feminino</label><br/>
+    <input type="radio" id="rd_m"><label for="rd_m">Masculino</label><br/>
+    <label>Raça declarada</label>
+    <select name="raca">
+      <option value=""></option>
+      <option value="Branca">Branca</option>
+      <option value="Negra">Negra</option>
+      <option value="Parda">Parda</option>
+      <option value="Amarela">Amarela</option>
+      <option value="Indígena">Indígena</option>
+      <option value="Desconhecida">Desconhecida</option>      
+    </select><br/>  
+    <label>Como ficou sabendo do estudo:</label><br/>
+    <input type="checkbox" id="ck_convidado"><label for="ck_convidado">Convidado</label><br/>
+    <input type="checkbox" id="ck_internet"><label for="ck_internet">Internet</label><br/>
+    <input type="checkbox" id="ck_amigos"><label for="ck_amigos">Amigos</label><br/>
+    <input type="checkbox" id="ck_Familiares"><label for="ck_Familiares">Familiares</label><br/>
+    <input type="checkbox" id="ck_outros"><label for="ck_outros">Outros</label><br/>
+    <button>Enviar</button>
+  </fieldset>
+</body>
+</html>
